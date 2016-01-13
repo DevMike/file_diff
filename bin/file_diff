@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'file_diff'
+
+FileDiff.perform_with_output(*ARGV)
